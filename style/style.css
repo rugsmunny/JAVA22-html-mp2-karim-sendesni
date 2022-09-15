@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.nav {
+    background-color: #666666;
+}
+
+.nav a {
+    color: #f8f9fa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+
+}
+
+.nav a:hover {
+    transition: .5s;
+    color: #8f979f;
+}
+
+h2,
+h3 {
+    padding: 80px 0px 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #666666;
+
+}
+.meny-titel {
+    margin-bottom: -10px;
+}
+
+.page {
+    height: 100vh;
+}
+
+.open {
+    font-size: 3vh;
+    margin: 3vh 82vh 2vh 0vh;
+}
+
+
+.om-oss,
+.meny,
+.boka {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px 100px;
+
+}
+.kontakt {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    font-size: 2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 100px;
+
+}
+
+.meny-1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 3vhpx;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 100px;
+}
+
+.meny-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    font-size: 2.5vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tareq {
+    margin: 2vh 60vh 2vh 2vh;
+    height: 6vh;
+
+}
+
+.wine-list {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#scrollspyHeading1 {
+    padding-bottom: 20px;
+
+}
+
+article.om-oss>p,
+article.om-oss>h2,
+article.om-oss>blockquote,
+article.om-oss>cite,
+article.meny {
+    text-align: center;
+}
+
+.border {
+    border-bottom: 3px solid #666666;
+    margin-top: 3vh;
+
+
+}
+
+.email,
+.phone {
+    color: #666666;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.btn-boka {
+    width: 70vh;
+    height: 10vh;
+    font-size: 5vh;
+    background-color: #3f3f3c;
+    color: #c5c5c5;
+    border: 5px solid #808080;
+    border-radius: 20px;
+    transition: .5s ease-out;
+}
+
+.btn-boka:hover {
+    background-color: #8f979f;
+    color: #3f3f3c;
+    border: 5px solid #3f3f3c;
+    transition: .5s ease-out;
+}
+
+.center {
+    padding-top: 10vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #d8d8d8;
+    height: 15vh;
+    padding-top: 4vh;
+
+}
+
+.meny-3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: end;
+}
+
+.icon {
+    height: 8vh;
+    margin: 0 5vh;
+}
+
+.meny-container>p,
+.meny-container>br {
+    display: flex;
+
+}
+
+#scrollspyHeading1 {
+    width: 100%;
+}
